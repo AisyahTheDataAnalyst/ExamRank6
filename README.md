@@ -34,7 +34,10 @@ Since this is a network program, you need two kind of terminal windows:
 	```
 
 #### Connect clients (using nc):
-1. Open a new terminal and type: nc localhost 8081
+1. Open a new terminal and type: 
+	```bash
+	nc localhost 8081
+	```
 2. Open another 1/+ terminals and type the same command to see messages relay between them.
 3. This will showcase the "chat system" between all clients with indications of:
 - who enter the chat	
