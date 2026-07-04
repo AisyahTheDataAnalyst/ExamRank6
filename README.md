@@ -104,3 +104,7 @@ To keep things simple and avoid headaches
 - **Stick to a "safe" port:** Use a number like **8081, 8888, or 9000**. These are high enough to avoid system restrictions and low enough to be clearly outside the dynamic range.  
 - **Clean up:** If you get a "bind failed" error, don't panic. Just change the number by 1 (e.g., from 8081 to 8082) and try again.
 - **Check for "Zombie" processes:** If you are worried that your previous test runs are still stuck, you can try closing your terminal window or using `pkill mini_serv` to ensure no hidden instances of your program are still running in the background.
+
+---
+### Last Note
+- (4th July 2026) Passed ExamRank6! alhamdulillahhh \\(^u^)/ 
